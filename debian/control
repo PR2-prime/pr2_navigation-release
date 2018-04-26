@@ -1,0 +1,12 @@
+Source: ros-kinetic-pr2-move-base
+Section: misc
+Priority: extra
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-catkin, ros-kinetic-dynamic-reconfigure, ros-kinetic-move-base-msgs, ros-kinetic-pr2-common-action-msgs, ros-kinetic-pr2-controllers-msgs, ros-kinetic-pr2-msgs, ros-kinetic-rospy
+Homepage: http://ros.org/wiki/pr2_move_base
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-move-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-dynamic-reconfigure, ros-kinetic-move-base-msgs, ros-kinetic-pr2-common-action-msgs, ros-kinetic-pr2-controllers-msgs, ros-kinetic-pr2-msgs, ros-kinetic-rospy
+Description: pr2_move_base
