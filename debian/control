@@ -1,0 +1,12 @@
+Source: ros-kinetic-pr2-navigation-slam
+Section: misc
+Priority: extra
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/pr2_navigation_slam
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-navigation-slam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-gmapping, ros-kinetic-joint-trajectory-generator, ros-kinetic-move-base, ros-kinetic-pr2-machine, ros-kinetic-pr2-move-base, ros-kinetic-pr2-navigation-config, ros-kinetic-pr2-tuck-arms-action, ros-kinetic-topic-tools
+Description: This package holds launch files for running the
