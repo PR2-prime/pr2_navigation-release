@@ -56,14 +56,14 @@ tracks:
       -i :{release_inc} --os-name debian --os-not-required
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
-    devel_branch: hydro-devel
+    devel_branch: kinetic-devel
     last_version: 0.1.27
     name: pr2_navigation
     patches: null
     release_inc: '0'
-    release_repo_url: null
+    release_repo_url: https://github.com/PR2-prime/pr2_navigation-release.git
     release_tag: :{version}
     ros_distro: kinetic
     vcs_type: git
-    vcs_uri: https://github.com/PR2/pr2_navigation.git
+    vcs_uri: https://github.com/PR2-prime/pr2_navigation.git
     version: :{auto}
