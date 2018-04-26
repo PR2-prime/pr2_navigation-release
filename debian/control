@@ -1,0 +1,12 @@
+Source: ros-kinetic-pr2-navigation-perception
+Section: misc
+Priority: extra
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-dynamic-reconfigure, ros-kinetic-filters, ros-kinetic-geometry-msgs, ros-kinetic-laser-filters, ros-kinetic-laser-geometry, ros-kinetic-laser-tilt-controller-filter, ros-kinetic-message-filters, ros-kinetic-pcl-ros, ros-kinetic-pr2-machine, ros-kinetic-pr2-navigation-self-filter, ros-kinetic-roscpp, ros-kinetic-semantic-point-annotator, ros-kinetic-sensor-msgs, ros-kinetic-tf, ros-kinetic-topic-tools
+Homepage: http://ros.org/wiki/pr2_navigation_perception
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-navigation-perception
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-dynamic-reconfigure, ros-kinetic-filters, ros-kinetic-geometry-msgs, ros-kinetic-laser-filters, ros-kinetic-laser-geometry, ros-kinetic-laser-tilt-controller-filter, ros-kinetic-message-filters, ros-kinetic-pcl-ros, ros-kinetic-pr2-machine, ros-kinetic-pr2-navigation-self-filter, ros-kinetic-roscpp, ros-kinetic-semantic-point-annotator, ros-kinetic-sensor-msgs, ros-kinetic-tf, ros-kinetic-topic-tools
+Description: This package holds navigation-specific sensor configuration options and launch files for the PR2.
