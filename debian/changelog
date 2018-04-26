@@ -1,0 +1,99 @@
+ros-kinetic-semantic-point-annotator (0.1.28-0xenial) xenial; urgency=high
+
+  * updated maintainer
+  * fixed CMake files for compile in kinetic
+  * Merge pull request #34 <https://github.com/PR2-prime/pr2_navigation/issues/34> from PR2/pr-fix-catkin-includes
+    fix typo in catkin_INCLUDE_DIRS
+  * fix typo in catkin_INCLUDE_DIRS
+    Fixes #33 <https://github.com/PR2-prime/pr2_navigation/issues/33>
+  * Merge pull request #25 <https://github.com/PR2-prime/pr2_navigation/issues/25> from gheorghelisca/patch-1
+    sac_inc_ground_removal_node instalation location fixed
+  * sac_inc_ground_removal_node instalation location fixed
+    sac_inc_ground_removal_node would be installed in "/opt/ros/indigo/bin/" directory and roslaunch couldn't find it.
+    now sac_inc_ground_removal_node will go into "/opt/ros/indigo/bin/sac_inc_ground_removal_node" directory.
+  * Contributors: David Feil-Seifer, Devon Ash, Gheorghe Lisca, Kei Okada, Michael Gorner
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Thu, 26 Apr 2018 07:00:00 -0000
+
+ros-kinetic-semantic-point-annotator (0.1.27-0xenial) xenial; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Mon, 22 Jun 2015 07:00:00 -0000
+
+ros-kinetic-semantic-point-annotator (0.1.26-0xenial) xenial; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Tue, 10 Feb 2015 08:00:00 -0000
+
+ros-kinetic-semantic-point-annotator (0.1.25-0xenial) xenial; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Fri, 06 Feb 2015 08:00:00 -0000
+
+ros-kinetic-semantic-point-annotator (0.1.24-0xenial) xenial; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Wed, 15 Oct 2014 07:00:00 -0000
+
+ros-kinetic-semantic-point-annotator (0.1.23-0xenial) xenial; urgency=high
+
+  * Updated maintainership
+  * Removed unnecessary package fix
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Wed, 15 Oct 2014 07:00:00 -0000
+
+ros-kinetic-semantic-point-annotator (0.1.22-0xenial) xenial; urgency=high
+
+  * Removed dependency on pcl
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Mon, 08 Sep 2014 07:00:00 -0000
+
+ros-kinetic-semantic-point-annotator (0.1.21-0xenial) xenial; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Sat, 06 Sep 2014 07:00:00 -0000
+
+ros-kinetic-semantic-point-annotator (0.1.20-0xenial) xenial; urgency=high
+
+  * 0.1.19
+  * Added changelogs
+  * 0.1.18
+  * Generating changelogs; preparing for release
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Sat, 06 Sep 2014 07:00:00 -0000
+
+ros-kinetic-semantic-point-annotator (0.1.19-0xenial) xenial; urgency=high
+
+  * 0.1.18
+  * Generating changelogs; preparing for release
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Sat, 06 Sep 2014 07:00:00 -0000
+
+ros-kinetic-semantic-point-annotator (0.1.18-0xenial) xenial; urgency=high
+
+  * catkinize packages
+  * Add ignores.
+  * Removing some launch files that we don't need anymore
+  * Porting the ground removal stuff away from PointCloud to PointCloud2. Still needs testing though.
+  * Remove deprecated API usage
+  * eigen updates
+  * port to eigen3 and remove deprecated use of message size
+  * Unreal, the code actually depended on reading the parameters every cycle to work because it reset the value of z_threshold_ which got transformed to a different frame every cycle
+  * Removing reading of parameters from the cloud callback
+  * Changing in all three files instead of just one for empty cloud... this package is a mess... really should switch to new pcl stufff
+  * Empty clouds are sometimes expected and should be passed on... not errored on and dropped
+  * Copying pr2_navigation from staging area to stacks section of the repoistory
+  * Contributors: Austin Hendrix, Brian Gerkey, Eitan Marder-Eppstein, Kei Okada, Ken Conley, Wim Meeussen, eitan
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Sat, 06 Sep 2014 07:00:00 -0000
+
+
